@@ -24,6 +24,7 @@ npx expo start
 
 1. Install Expo Go from App Store or Google Play
 2. Scan the QR code:
+
    ![expo go qr code](image.png)
 
 ---
