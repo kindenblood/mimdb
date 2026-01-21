@@ -57,9 +57,9 @@ IF/ELSE: image/view (poster)
 
 ```
 VIEW (content)
-TEXT (title) / PRESSABLE (favorite) [flex row, space between]
-VIEW (rating, duration, release, user score) [flex row]
-TEXT (summary)
+  TEXT (title) / PRESSABLE (favorite) [flex row, space between]
+  VIEW (rating, duration, release, user score) [flex row]
+  TEXT (summary)
 ```
 
 ---
