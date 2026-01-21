@@ -4,7 +4,7 @@
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/kindenblood/mimdb
 cd mimdb
 
 # Install dependencies
@@ -53,15 +53,19 @@ Example of psuedocode used to build the MovieCard component
 PRESSABLE (container)
 IF/ELSE: image/view (poster)
 
+```
 VIEW (content)
 TEXT (title) / PRESSABLE (favorite) [flex row, space between]
 VIEW (rating, duration, release, user score) [flex row]
 TEXT (summary)
+```
 
 ---
 
 ## Technical Highlights
 
 What I found most interesting and fun to build was the way the logic involving the favorites list. Keeping the favorites array stored locally allowed me to continue to access the data without needing to make additional calls, so that modifications to the list provided immediate feedback to the user while the actual update persists to storage.
+
 I used Zustand to centralize the client side state every time the favorites list was modified. So whether 'favorites' is used by only a couple of components like in the current app, or in many different places throughout a robust production app, everything subscribes to the same store, allowing it to scale gracefully.
+
 In line with this I would say that the scalability of what I built is probably what I’m the most proud of. I wouldn’t call this necessarily prod ready from a UX standpoint, functionally I do think it could be built into a real world app without many changes
