@@ -18,7 +18,9 @@ npx expo start
 
 ## Deployment
 
-**Live Demo:** [Link to Expo published app]
+**Live Demo:**
+
+[\[Link to Expo published app\]](https://expo.dev/preview/update?message=MiMDB&updateRuntimeVersion=1.0.0&createdAt=2026-01-21T22%3A32%3A48.640Z&slug=exp&projectId=d7f169bb-115e-42fb-9784-3fb4c7dcd563&group=ccd6f70e-573e-4dd4-8b15-1588f98a7d24)
 
 **To view on your device:**
 
