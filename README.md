@@ -52,14 +52,14 @@ Keeping speed and simplicity in mind I made several workflow decisions:
 - Helped write this readme
 
 Example of psuedocode used to build the MovieCard component
-PRESSABLE (container)
-IF/ELSE: image/view (poster)
 
 ```
-VIEW (content)
-  TEXT (title) / PRESSABLE (favorite) [flex row, space between]
-  VIEW (rating, duration, release, user score) [flex row]
-  TEXT (summary)
+PRESSABLE (container)
+  IF/ELSE: image/view (poster)
+  VIEW (content)
+    TEXT (title) / PRESSABLE (favorite) [flex row, space between]
+    VIEW (rating, duration, release, user score) [flex row]
+    TEXT (summary)
 ```
 
 ---
